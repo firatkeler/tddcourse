@@ -1,6 +1,9 @@
 <?php
 
 class Database {
+    /**
+     * @codeCoverageIgnore
+     */
     public function getEmailAndLastName() {
         echo 'db touched';
     }
@@ -31,5 +34,16 @@ class User {
 
     protected function hashPassword2() {
         return 'password2 hashed';
+    }
+
+    public function someOperation($array) {
+        $count = count($array);
+
+        if ($count == 0) return 'error';
+        else if ($count == 1) {
+            if ($array[0] == 0) return 'error';
+            else return 'ok';
+        }
+        else return 'ok!';
     }
 }

@@ -8,8 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'BMICalculator' => $baseDir . '/src/BMICalculator.php',
     'CustomAssertionTrait' => $baseDir . '/tests/traits/CustomAssertionTrait.php',
+    'CustomSearchEngine' => $baseDir . '/src/CustomSearchEngine.php',
     'Database' => $baseDir . '/src/User.php',
     'DatabaseTrait' => $baseDir . '/tests/traits/DatabaseTrait.php',
+    'Employee' => $baseDir . '/src/forTestingAbstractClassesAndTraits/Employee.php',
     'Logger' => $baseDir . '/src/Logger.php',
     'PHPUnit\\Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit\\Framework\\Assert' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert.php',
@@ -603,4 +605,9 @@ return array(
     'TheSeer\\Tokenizer\\XMLSerializer' => $vendorDir . '/theseer/tokenizer/src/XMLSerializer.php',
     'User' => $baseDir . '/src/User.php',
     'WrongBmiDataException' => $baseDir . '/src/Exceptions/WrongBmiDataException.php',
+    'forStubMockTesting\\Logger' => $baseDir . '/src/forStubMockTesting/Logger.php',
+    'forStubMockTesting\\Product' => $baseDir . '/src/forStubMockTesting/Product.php',
+    'forStubMockTesting\\User' => $baseDir . '/src/forStubMockTesting/User.php',
+    'forTestingAbstractClassesAndTraits\\MyTrait' => $baseDir . '/src/forTestingAbstractClassesAndTraits/MyTrait.php',
+    'forTestingAbstractClassesAndTraits\\PersonAbstract' => $baseDir . '/src/forTestingAbstractClassesAndTraits/PersonAbstract.php',
 );

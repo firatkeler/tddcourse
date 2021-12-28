@@ -67,8 +67,10 @@ class ComposerStaticInit46c710d1127bdf05bb259fa65d2f78ff
     public static $classMap = array (
         'BMICalculator' => __DIR__ . '/../..' . '/src/BMICalculator.php',
         'CustomAssertionTrait' => __DIR__ . '/../..' . '/tests/traits/CustomAssertionTrait.php',
+        'CustomSearchEngine' => __DIR__ . '/../..' . '/src/CustomSearchEngine.php',
         'Database' => __DIR__ . '/../..' . '/src/User.php',
         'DatabaseTrait' => __DIR__ . '/../..' . '/tests/traits/DatabaseTrait.php',
+        'Employee' => __DIR__ . '/../..' . '/src/forTestingAbstractClassesAndTraits/Employee.php',
         'Logger' => __DIR__ . '/../..' . '/src/Logger.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
@@ -662,6 +664,11 @@ class ComposerStaticInit46c710d1127bdf05bb259fa65d2f78ff
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
         'User' => __DIR__ . '/../..' . '/src/User.php',
         'WrongBmiDataException' => __DIR__ . '/../..' . '/src/Exceptions/WrongBmiDataException.php',
+        'forStubMockTesting\\Logger' => __DIR__ . '/../..' . '/src/forStubMockTesting/Logger.php',
+        'forStubMockTesting\\Product' => __DIR__ . '/../..' . '/src/forStubMockTesting/Product.php',
+        'forStubMockTesting\\User' => __DIR__ . '/../..' . '/src/forStubMockTesting/User.php',
+        'forTestingAbstractClassesAndTraits\\MyTrait' => __DIR__ . '/../..' . '/src/forTestingAbstractClassesAndTraits/MyTrait.php',
+        'forTestingAbstractClassesAndTraits\\PersonAbstract' => __DIR__ . '/../..' . '/src/forTestingAbstractClassesAndTraits/PersonAbstract.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
